@@ -1,3 +1,77 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #e8e3da;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 120px;
+  text-align: center;
+  color: #282424;
+  padding-top: 170px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+}
+img {
+  width: 2544px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 60px;
+  box-shadow: 5px 5px 5px 5px rgba(169, 169, 169, 0.1);
+  opacity: 0.9;
+}
+
+.subheadings {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 600px;
+  padding-top: 20px;
+}
+.menu-links {
+  padding: 5px 40px 5px 40px;
+  font-size: 22px;
+}
+.lbd-homepage {
+  font-size: 28px;
+}
+button {
+  background-color: #e8e3da;
+  border: 1px #282424 solid;
+  border-radius: 5px;
+  display: block;
+  margin: 0px auto;
+  padding: 20px 30px;
+  position: relative;
+  top: -800px;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background-color: #282424;
+}
+
+footer {
+  text-align: center;
+  margin-top: -60px;
+  margin-bottom: 5px;
+}
+.homepage-icons {
+  padding-right: 10px;
+}
+
+.contact-me-homepage {
+  color: #282424;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
+.contact-me-homepage:hover {
+  color: #e8e3da;
 }
