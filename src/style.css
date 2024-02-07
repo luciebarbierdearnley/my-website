@@ -17,9 +17,10 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 img {
-  width: 2544px;
+  max-width: 100%;
+
   display: block;
-  margin: 0 auto;
+  margin: -10px auto;
   padding-top: 60px;
   box-shadow: 5px 5px 5px 5px rgba(169, 169, 169, 0.1);
   opacity: 0.9;
@@ -32,6 +33,7 @@ img {
   max-width: 600px;
   padding-top: 20px;
 }
+
 .menu-links {
   padding: 5px 40px 5px 40px;
   font-size: 22px;
@@ -44,20 +46,17 @@ img {
   border: 1px #282424 solid;
   border-radius: 5px;
   display: block;
-  margin: 0px auto;
+  margin: 50px auto;
   padding: 20px 30px;
-  position: relative;
-  top: -800px;
   transition: all 200ms ease-in-out;
 }
-
 button:hover {
   background-color: #282424;
 }
 
 footer {
   text-align: center;
-  margin-top: -60px;
+  margin-top: 14px;
   margin-bottom: 5px;
 }
 .homepage-icons {
@@ -74,4 +73,38 @@ footer {
 }
 .contact-me-homepage:hover {
   color: #e8e3da;
+}
+
+@media (max-width: 1700px) {
+  h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu-links {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 }
