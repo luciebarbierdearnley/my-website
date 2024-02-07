@@ -63,7 +63,7 @@ footer {
   padding-right: 10px;
 }
 
-.contact-me-homepage {
+.contact-me-link-homepage {
   color: #282424;
   text-decoration: none;
   font-size: 20px;
@@ -106,5 +106,14 @@ footer {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+  }
+  footer {
+    font-size: 14px;
+  }
+  .contact-button {
+    padding: 10px 20px;
+  }
+  .contact-me-link-homepage {
+    font-size: 15px;
   }
 }
