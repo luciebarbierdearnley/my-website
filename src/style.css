@@ -36,7 +36,7 @@ img {
 
 .menu-links {
   padding: 5px 40px 5px 40px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .lbd-homepage {
   font-size: 28px;
@@ -96,8 +96,14 @@ footer {
     margin: 0 auto;
   }
 
-  .menu-links {
+  .lbd-homepage {
     font-size: 15px;
+  }
+  .navbar-toggler-icon {
+    font-size: 10px;
+  }
+  .nav-link {
+    font-size: 10px;
   }
   h2 {
     font-size: 13px;
@@ -108,10 +114,11 @@ footer {
     margin: 0 auto;
   }
   footer {
-    font-size: 14px;
+    font-size: 12px;
   }
   .contact-button {
     padding: 10px 20px;
+    margin-bottom: 0;
   }
   .contact-me-link-homepage {
     font-size: 15px;
