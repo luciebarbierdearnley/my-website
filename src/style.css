@@ -15,6 +15,9 @@ h1 {
 h2 {
   font-size: 25px;
   font-family: "Playfair Display", serif;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 20px;
 }
 img {
   max-width: 100%;
@@ -26,13 +29,13 @@ img {
   opacity: 0.9;
 }
 
-.subheadings {
+/*.subheadings {
   display: flex;
   margin: 0 auto;
-  justify-content: space-around;
-  max-width: 600px;
+  justify-content: space-between;
+  max-width: 500px;
   padding-top: 20px;
-}
+}*/
 
 .menu-links {
   padding: 5px 40px 5px 40px;
@@ -63,7 +66,7 @@ footer {
   padding-right: 10px;
 }
 
-.contact-me-link-homepage {
+.portfolio-link-homepage {
   color: #282424;
   text-decoration: none;
   font-size: 20px;
@@ -107,6 +110,7 @@ footer {
   }
   h2 {
     font-size: 13px;
+    line-height: 0;
   }
   img {
     max-width: 100%;
@@ -120,7 +124,7 @@ footer {
     padding: 10px 20px;
     margin-bottom: 0;
   }
-  .contact-me-link-homepage {
+  .portfolio-link-homepage {
     font-size: 15px;
   }
 }
