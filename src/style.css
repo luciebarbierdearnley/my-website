@@ -122,8 +122,10 @@ footer {
 }
 
 .who-i-am {
+  font-size: 130px;
+  font-weight: lighter;
   text-align: start;
-  margin-left: 100px;
+  margin: -50px 0px 0px 100px;
 }
 
 .my-headshot {
@@ -132,14 +134,13 @@ footer {
   transform: rotate(-0.25turn);
   margin: 140px 0px 0px 100px;
   opacity: 0.9;
-  /*box-shadow: 5px 5px 5px 5px rgba(169, 169, 169, 0.1);*/
 }
 
 .introduction {
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Playfair Display", serif;
 }
 .about-me-description {
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 20px;
 }
