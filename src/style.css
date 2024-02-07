@@ -48,7 +48,7 @@ img {
   padding: 20px 30px;
   position: relative;
   top: -800px;
-  transition: all 150ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 button:hover {
