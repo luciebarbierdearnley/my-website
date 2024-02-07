@@ -43,11 +43,7 @@ button {
   background-color: #e8e3da;
   border: 1px #282424 solid;
   border-radius: 5px;
-  display: block;
-  margin: 0px auto;
-  padding: 20px 30px;
-  position: relative;
-  top: -800px;
+
   transition: all 150ms ease-in-out;
 }
 
