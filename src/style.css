@@ -155,7 +155,10 @@ footer {
 
 @media (max-width: 1400px) {
   .my-headshot {
-    max-width: 300px;
+    max-width: 350px;
+    transform: rotate(0);
+    margin-top: 80px;
+    margin-left: 45px;
   }
   .email-link {
     font-size: 70px;
@@ -218,6 +221,12 @@ footer {
     margin: 0 auto;
   }
 
+  .introduction {
+    font-size: 35px;
+  }
+  .about-me-description {
+    font-size: 17px;
+  }
   .email-link {
     font-size: 30px;
     margin-top: 100px;
