@@ -70,57 +70,6 @@ footer {
   color: #e8e3da;
 }
 
-@media (max-width: 1700px) {
-  h1 {
-    text-align: center;
-    font-size: 80px;
-  }
-  .rattan {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 1000px) {
-  h1 {
-    text-align: center;
-    font-size: 35px;
-  }
-  .rattan {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .lbd-homepage {
-    font-size: 15px;
-  }
-  .navbar-toggler-icon {
-    font-size: 10px;
-  }
-  .nav-link {
-    font-size: 10px;
-  }
-  h2 {
-    font-size: 13px;
-    line-height: 0;
-  }
-  .rattan {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  footer {
-    font-size: 12px;
-  }
-  .contact-button {
-    padding: 10px 20px;
-    margin-bottom: 0;
-  }
-  .portfolio-link-homepage {
-    font-size: 15px;
-  }
-}
-
 .who-i-am {
   font-size: 130px;
   font-weight: lighter;
@@ -147,14 +96,8 @@ footer {
   font-size: 20px;
 }
 
-.first-row {
+.projects-container {
   margin-top: 100px;
-  padding-left: 400px;
-}
-
-.third-row {
-  margin-top: 70px;
-  padding-left: 420px;
 }
 
 .app-img {
@@ -169,13 +112,84 @@ footer {
   font-size: 50px;
 }
 
-.projects {
-  margin: 70px 0px 0px -100px;
-}
-
 .launch-app-button {
   background-color: #282424;
   padding: 10px 15px;
   color: #e8e3da;
   font-family: "Playfair Display", serif;
+}
+
+@media (max-width: 1700px) {
+  h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  .rattan {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .my-headshot {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .rattan {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .lbd-homepage {
+    font-size: 15px;
+  }
+  .navbar-toggler-icon {
+    font-size: 10px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 13px;
+    line-height: 0;
+  }
+  .rattan {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .contact-button {
+    padding: 10px 20px;
+    margin-bottom: 0;
+  }
+  .portfolio-link-homepage {
+    font-size: 15px;
+  }
+  .who-i-am {
+    font-size: 40px;
+    text-align: center;
+    margin-left: -50px;
+  }
+  .app-img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .app-img {
+    display: none;
+  }
+  .projects-container {
+    margin-top: 0;
+  }
 }
