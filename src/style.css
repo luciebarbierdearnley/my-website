@@ -119,6 +119,30 @@ footer {
   font-family: "Playfair Display", serif;
 }
 
+.email-link {
+  display: block;
+  margin: 250px auto;
+  text-align: center;
+  font-size: 96px;
+  font-family: "Playfair Display", serif;
+  color: #282424;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  margin-top: -200px;
+  font-style: italic;
+}
+
+.link-decoration {
+  text-decoration: none;
+  color: #282424;
+  font-style: normal;
+}
 @media (max-width: 1700px) {
   h1 {
     text-align: center;
@@ -132,6 +156,15 @@ footer {
 @media (max-width: 1400px) {
   .my-headshot {
     max-width: 300px;
+  }
+  .email-link {
+    font-size: 70px;
+    margin-top: 250px;
+  }
+
+  .social-links {
+    font-size: 45px;
+    margin-top: -230px;
   }
 }
 
@@ -183,6 +216,16 @@ footer {
     max-width: 200px;
     display: block;
     margin: 0 auto;
+  }
+
+  .email-link {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+  .social-links {
+    font-size: 17px;
+    margin-top: -230px;
   }
 }
 @media (max-width: 768px) {
