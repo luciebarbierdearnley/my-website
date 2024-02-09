@@ -53,7 +53,13 @@ footer {
   text-align: center;
   margin-top: 14px;
   margin-bottom: 5px;
+  padding: 10px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 .homepage-icons {
   padding-right: 10px;
 }
