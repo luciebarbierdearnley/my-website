@@ -2,7 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #e8e3da;
 }
-
+/*Homepage*/
 .menu-links {
   padding: 5px 40px 5px 40px;
   font-size: 20px;
@@ -27,22 +27,17 @@ header h2 {
   margin-top: 20px;
 }
 
-.subheadings {
+header .subheadings {
   margin-bottom: 40px;
 }
-.portfolio-link-homepage {
-  margin-top: 20px;
-  color: #282424;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-  transition: all 150ms ease-in-out;
+.homepage-icons {
+  padding-right: 10px;
 }
-.portfolio-link-homepage:hover {
-  color: #e8e3da;
+.container-bg-homepage {
+  background-image: url(/images/pexels-marina-leonova-7717490.jpg);
+  max-width: 100%;
+  height: 837px;
 }
-
 .container-bg-homepage button {
   background-color: #e8e3da;
   border: 1px #282424 solid;
@@ -57,10 +52,17 @@ header h2 {
 .container-bg-homepage button:hover {
   background-color: #282424;
 }
-.container-bg-homepage {
-  background-image: url(/images/pexels-marina-leonova-7717490.jpg);
-  max-width: 100%;
-  height: 850px;
+.portfolio-link-homepage {
+  margin-top: 20px;
+  color: #282424;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
+.portfolio-link-homepage:hover {
+  color: #e8e3da;
 }
 
 footer {
@@ -72,11 +74,9 @@ footer {
   width: 100%;
 }
 
-.homepage-icons {
-  padding-right: 10px;
-}
+/*About me page*/
 
-.who-i-am {
+.headings {
   font-size: 110px;
   font-weight: lighter;
   text-align: start;
@@ -102,6 +102,7 @@ footer {
 .about-me-description {
   margin-top: 70px;
   font-size: 20px;
+  max-width: 650px;
 }
 
 .tools {
@@ -120,6 +121,8 @@ footer {
   text-align: left;
   margin-top: 20px;
 }
+
+/*Portfolio page*/
 
 .projects-container {
   margin-top: 100px;
@@ -146,15 +149,17 @@ footer {
 .launch-app-button:hover {
   background-color: #e8e3da;
 }
-.projects-link {
+.button-link {
   color: #e8e3da;
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
-.projects-link:hover {
+.button-link:hover {
   color: #282424;
 }
+/*Contact page*/
+
 .email-link {
   display: block;
   margin: 250px auto;
@@ -184,43 +189,22 @@ footer {
   text-decoration: underline;
 }
 
-@media (max-width: 1700px) {
-  h1 {
-    text-align: center;
-    font-size: 80px;
-  }
-  .rattan {
-    max-width: 100%;
-  }
-}
-
 @media (max-width: 1400px) {
   .my-headshot {
-    max-width: 350px;
-    transform: rotate(0);
-    margin-top: 80px;
-    margin-left: 45px;
-  }
-  .email-link {
-    font-size: 70px;
-    margin-top: 250px;
-  }
-
-  .social-links {
-    font-size: 45px;
-    margin-top: -230px;
+    max-width: 400px;
   }
 }
 
-@media (max-width: 1000px) {
-  h1 {
-    text-align: center;
-    font-size: 35px;
+@media (max-width: 1200px) {
+  .my-headshot {
+    max-width: 350px;
+    margin-left: 20px;
   }
-  .rattan {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+}
+@media (max-width: 1100px) {
+  header h1 {
+    text-align: center;
+    font-size: 70px;
   }
 
   .lbd-homepage {
@@ -232,49 +216,54 @@ footer {
   .nav-link {
     font-size: 12px;
   }
-  h2 {
-    font-size: 13px;
+  header h2 {
+    font-size: 20px;
     line-height: 0;
   }
-  .rattan {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  footer {
-    font-size: 12px;
-  }
-  .contact-button {
-    padding: 10px 20px;
-    margin-bottom: 0;
-  }
-  .portfolio-link-homepage {
-    font-size: 15px;
-  }
-  .who-i-am {
-    font-size: 40px;
-    text-align: center;
-    margin-left: -50px;
-  }
-  .app-img {
-    max-width: 200px;
-    display: block;
-    margin: 0 auto;
-  }
 
+  footer {
+    font-size: 13px;
+  }
+  .headings {
+    font-size: 80px;
+    text-align: left;
+    margin-left: 80px;
+  }
+  .my-headshot {
+    max-width: 350px;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
   .introduction {
     font-size: 35px;
   }
   .about-me-description {
     font-size: 17px;
   }
-  .email-link {
+  .tools {
+    max-width: 700px;
+  }
+
+  .app-img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .projects-name {
     font-size: 30px;
-    margin-top: 100px;
+  }
+
+  .projects-description {
+    font-size: 14px;
+  }
+
+  .email-link {
+    font-size: 55px;
+    margin-top: 150px;
   }
 
   .social-links {
-    font-size: 17px;
+    font-size: 25px;
     margin-top: -230px;
   }
 }
@@ -284,5 +273,29 @@ footer {
   }
   .projects-container {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .headings {
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .about-me-description {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .projects-container {
+    margin-top: -190px;
+  }
+
+  .email-link {
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  .social-links {
+    font-size: 15px;
   }
 }
