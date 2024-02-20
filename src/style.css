@@ -139,10 +139,22 @@ footer {
 .launch-app-button {
   background-color: #282424;
   padding: 10px 15px;
-  color: #e8e3da;
   font-family: "Playfair Display", serif;
+  transition: all 200ms ease-in-out;
 }
 
+.launch-app-button:hover {
+  background-color: #e8e3da;
+}
+.projects-link {
+  color: #e8e3da;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.projects-link:hover {
+  color: #282424;
+}
 .email-link {
   display: block;
   margin: 250px auto;
